@@ -6,6 +6,10 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { ChatMessage } from "../../src/models/chatMessage";
 import { useLocalSearchParams } from "expo-router";
 
+//----------------> IMPORTANTE <----------------
+//PROFE LE DEJO EL LINK DEL CHAT SERVER PORQUE SE ME OLVIDO DE PONERLO EN CLASSROOM
+// https://github.com/Jesuscodes555/chatserver
+
 type MessageBubbleProps = {
   chatMessage: ChatMessage,
   mySocketId?: string
